@@ -1,6 +1,6 @@
 #find second largest element in an array
 #it performs better - time and space complexities=O(n),O(1)
-"""arr=[5,12,7,3,1,19]
+arr=[5,12,7,3,1,19]
 largest=second_largest=float('-inf')
 for n in arr:
     if n>largest:
@@ -11,7 +11,7 @@ for n in arr:
 if second_largest==float('-inf'):
     print("no second largest element")
 else:
-    print(second_largest)"""
+    print(second_largest)
 
 
 
@@ -24,3 +24,4 @@ def second_largest(arr):
     return -1
 arr=[5,12,7,3,1,19]
 print(second_largest(arr))
+
