@@ -1,11 +1,11 @@
 #find minimum and maximum values in an array
-"""arr=[5,12,7,3,1,19]
+arr=[5,12,7,3,1,19]
 min=max=arr[0]
 for n in arr:
     if n<min: min=n
     if n>max: max=n
 print("minimum element:", min)
-print("maximum element:", max)"""
+print("maximum element:", max)
 
 
 #using in-built methods in python
@@ -24,3 +24,4 @@ def max_e(arr):
 print(max_e(arr))
 
 arr=[5,12,7,3,1,19]
+
