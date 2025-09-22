@@ -3,6 +3,11 @@ arr=[1,2,3,4,5,6]
 rev=arr[::-1]
 print(rev)
 
+#using built-in method
+arr=[1,2,3,4,5,6]
+arr.reverse()
+print(arr)
+
 #using loop
 arr=[1,2,3,4,5]
 n=len(arr)
@@ -20,4 +25,5 @@ while i<mid:
     arr[i],arr[n-i-1]=arr[n-i-1],arr[i]
     i+=1
 print(arr)
+
 
