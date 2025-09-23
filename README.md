@@ -17,12 +17,19 @@ Each solution includes:
 🔹 Topics Covered
 
 -Arrays & Searching
+
 -Strings & Pattern Matching
+
 -Linked Lists (Singly/Doubly)
+
 -Stacks & Queues
+
 -Recursion & Backtracking
+
 -Trees (Binary Tree, BST)
+
 -Graphs (BFS, DFS, Shortest Paths, MST)
+
 -Dynamic Programming
 
 This repo serves as a reference guide for interview prep and a portfolio project to showcase problem-solving skills.
