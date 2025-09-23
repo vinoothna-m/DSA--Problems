@@ -1,4 +1,22 @@
-#reverse an array using slicing
+#reverse an array 
+"""take an array as input
+swap first and last elements then move inward until middle
+this reverses must takes in-place"""
+
+def reverse_array(arr):
+    left,right=0,len(arr)-1
+    while left<right:
+        arr[left],arr[right]=arr[right],arr[left]
+        left+=1
+        right+=1
+    return arr
+print(reverse_array([1,2,3,4,5]))
+
+"""Complexity Analysis:
+Time Complexity: O(n)
+Space Complexity: O(1)"""
+
+#using slicing
 arr=[1,2,3,4,5,6]
 rev=arr[::-1]
 print(rev)
@@ -16,7 +34,7 @@ for i in range(n-1,-1,-1):
     rev.append(arr[i])
 print(rev)
 
-#using swapping - time and space complexities=O(n),O(1)
+#using swapping
 arr=[1,2,3,4,5,6]
 i=0
 n=len(arr)
@@ -25,5 +43,6 @@ while i<mid:
     arr[i],arr[n-i-1]=arr[n-i-1],arr[i]
     i+=1
 print(arr)
+
 
 
