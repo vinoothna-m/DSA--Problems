@@ -1,7 +1,9 @@
-#reverse an array 
-"""take an array as input
-swap first and last elements then move inward until middle
+#REVERSE AN ARRAY
+"""take two pointers left at beginning and right at end of array
+swap first and last elements when left < right
+increment left and decrement right until reaches the two pointers to middle
 this reverses must takes in-place"""
+#optimal approach- using two pointers
 
 def reverse_array(arr):
     left,right=0,len(arr)-1
@@ -43,6 +45,7 @@ while i<mid:
     arr[i],arr[n-i-1]=arr[n-i-1],arr[i]
     i+=1
 print(arr)
+
 
 
 
