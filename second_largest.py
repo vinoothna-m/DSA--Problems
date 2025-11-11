@@ -1,23 +1,29 @@
-#find second largest element in an array
-#it performs better - time and space complexities=O(n),O(1)
-#using one iteration/traversal/pass search
+#SECOND LARGEST ELEMENT IN ARRAY
+"""initially assign two vars to negative value, then traverse through array
+find first largest element , then second largest element
+if not changed or updated the value then return -1"""
+#optimal approach - using one iteration/traversal/pass search
+
 def getSecondLargest(arr):
     n=len(arr)
     if n<2:
         return -1
-    first=second=float('-inf') #initially assign to negative value
+    first=second=float('-inf') 
     for num in arr:   
-        if num>first:      #find the first largest element
+        if num>first:     
             second=first
             first=num     
-        elif num>second and num!=first:  #find the second largest element
+        elif num>second and num!=first:  
             second=num
-    if second==float('-inf'):  #if not changed or updated the value
+    if second==float('-inf'):  
         return -1
     else:
         return second
 arr = [12, 35, 1, 10, 34, 1]
 print(getSecondLargest(arr))    
+
+"""Time Complexity: O(n)
+Space Complexity: O(1)"""
 
 # Python program to find the second largest element in the array
 # using two traversals/iterations
@@ -59,4 +65,5 @@ if second_largest==float('-inf'):
     print("no second largest element")
 else:
     print(second_largest)
+
 
