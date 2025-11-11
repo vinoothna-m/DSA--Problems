@@ -1,4 +1,4 @@
-#Move zeros to end of array
+#MOVE ZEROS TO END OF ARRAY
 #shift all non zero elements to left,must done in-place
 """initialize count=0 which keeps track of where to put next non zero elements
 traverse array-if element is non zero place it at that index
@@ -18,4 +18,5 @@ print(move_zeros(arr))
 """Complexity Analysis:
 Time Complexity: O(n)
 Space Complexity: O(1)"""
+
 
