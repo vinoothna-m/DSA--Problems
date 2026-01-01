@@ -19,8 +19,8 @@ def next_permutation(arr):
         right-=1
 
 #Example usage
-arr=[2,4,1,7,5,0]
-print(next_permutation(arr))
+print(next_permutation([2,4,1,7,5,0]))
 
 """Time complexity=O(n)
 Space complexity=O(1)"""
+
